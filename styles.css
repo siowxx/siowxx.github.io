@@ -1,4 +1,20 @@
 body{
+    background-color:greenyellow;
     font-family: 'Merriweather', serif;
-    text-align: center;
-  }
+}
+
+h1{
+    color:red;
+}
+
+a{
+    color:red;
+}
+
+hr{ 
+    border-style:none;
+    border-top-style: dotted;
+    border-width:5px;
+    border-color:green;
+    
+}
