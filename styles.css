@@ -18,3 +18,7 @@ hr{
     border-color:green;
     
 }
+
+.flex-container{
+    display: flex;
+}
