@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +11,12 @@
         
         body{
             background-color: grey;
+            position:absolute;
         }
-        ul{
+        /* ul{
             display:inline-block;
             
-        }
+        } */
 
         li{
             display:inline;
@@ -22,6 +24,12 @@
 
         a{
             color: yellow;
+        }
+
+        #top-container{
+            position:relative;
+            left: 1000px; 
+            top:-70px;
         }
 
     </style>
@@ -32,13 +40,15 @@
     <img src="https://logomaster.ai/static/media/signage_thumbnail.83398f09.jpg" alt="log-image" width="100px" height="50px">
 
 
-    
-        <ul >
+    <div id="top-container">
+        <ul>
             <li><a href="default.asp">Home</a></li>
             <li><a href="news.asp">News</a></li>
             <li><a href="contact.asp">Contact</a></li>
             <li><a href="about.asp">About</a></li>
         </ul>
+
+    </div>
     
 
       <h1>
