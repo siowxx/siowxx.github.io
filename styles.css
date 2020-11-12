@@ -37,3 +37,31 @@ hr{
     justify-content: space-between;
     background-color: blue;
 }
+
+.mid-container{
+    height: 800px;
+    width 800px;
+    position:relative;
+    background-color: grey;
+}
+
+#image1{
+    position:absolute;
+    left: 400px;
+    bottom: 100px;
+}
+
+.left{
+    display:inline-block;
+    background-color: blue;
+}
+
+.main{
+    display:inline-block;
+    background-color: gold;
+}
+
+.right{
+    display:inline-block;
+    background-color: pink;
+}
